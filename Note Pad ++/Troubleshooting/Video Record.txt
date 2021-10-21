@@ -1,0 +1,4 @@
+Watch first 4 videos then practice:-
+vlc command to increase the playback speed
+[ for -0.10 and ] for +0.10
++ for +0.5 increase and vice versa for -

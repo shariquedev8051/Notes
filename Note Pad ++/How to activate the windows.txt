@@ -1,0 +1,17 @@
+Computer\HKEY_CURRENT_USER\Control Panel\Desktop registryedit paintdesktopversion 4
+
+cmd in admin mode: gpupdate /force
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\svsvc
+
+start = 4
+new key KMS
+edit string value_data = kms_4
+
+gpupdate /force
+
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+slmgr /skms kms8.msguides.com
+
+gpupdate /force

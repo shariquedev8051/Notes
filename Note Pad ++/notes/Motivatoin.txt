@@ -1,0 +1,3 @@
+Motivation:=
+1.Try_and_fail > Never_Try_and_Never_Fail
+2.Watch_&_Practice > Watch_and_Never_practice

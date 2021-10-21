@@ -1,0 +1,10 @@
+python -- 
+basic part --  data types ,14
+
+built in function --
+Django 
+Sql
+
+6-7 hrs -- for me
+
+ Fira Code ,monospace ,Consolas, 'Courier New'

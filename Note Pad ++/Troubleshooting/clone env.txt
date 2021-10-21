@@ -1,0 +1,6 @@
+create text document to store which module you need to install
+active env
+pip freeze > env.txt
+
+installing env.txt
+pip install -r env.txt

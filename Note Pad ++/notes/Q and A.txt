@@ -1,0 +1,20 @@
+Q1: What is the difference between in-built methods and in-built functions?
+Ans: Functions: They can be called with their name only. They are independentaly defined.
+	 Methods: But not the methods they need their class as well as. As they defined in the class.
+	
+Q2:Post and Request difference?
+Ans:When we are fetching(requesting) data from database then it should use method.request.
+	And when we are giving(posting) data to database we use method.post..
+	GET is used for viewing something, without changing it,
+	while POST is used for changing something.
+	
+	https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+	
+	
+Q3:what are cookies?
+Ans:https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+
+Q4:Redirect and render?
+Ans:Redirect : Just simply going to perticular page. For exaple you are going from Amravati to Puna.
+			You are redirecting yourself simple.
+	Render:

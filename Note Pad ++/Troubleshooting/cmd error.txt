@@ -1,0 +1,6 @@
+create new environment
+open scripts
+open activate.bat
+copy contents in it
+past it in not working bat
+edit the file path

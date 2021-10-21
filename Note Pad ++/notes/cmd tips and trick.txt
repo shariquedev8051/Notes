@@ -1,0 +1,6 @@
+cmd tips and trick
+1. full screen :- mode 800
+2. Change color:- color 00-08
+3. clear screen:- cls
+4.clear shell:- import os
+os.system('cls')

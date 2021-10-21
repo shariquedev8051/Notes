@@ -1,0 +1,77 @@
+Select default terminal as cmd
+
+- django-admin startproject project_name
+- python manage.py check or runserver
+- python manage.py makemigrations
+- python manage.py migrate
+- python manage.py sqlmigrate appname migratio_file_code -- python manage.py sqlmigrate app1 0001
+
+
+#creat an app
+-- python manage.py startapp app_name
+-- register app_name in settings.py in installed-apps
+-- models.py --model create --class tabelname, feild, data types,
+-- python manage.py makemigrations
+-- python manage.py sqlmigrate appname migratio_file_code -- python manage.py sqlmigrate app1 0001
+
+makemigrations == creats models or to create changes to already existed module -- creates models -- quirries in backend
+migrate == Applying and unappling changes to models -- commit querries in database
+
+
+Mysql client:	
+	pip install mysqlclient
+	python manage.py makemigrations
+	python manage.py migrate
+	
+	
+To create admin:
+	python manage.py createsuperuser
+	
+To change password:
+	python manage.py changepassword
+	
+To open a file from directory directly:
+	ctrl+p : type the name and hit enter
+	
+To soft delet:
+	deleting file but not completing-- changing the flage 0 or 1
+To hard delet:
+	deleting completly from hard drive
+	
+staff -- can only login when true
+active -- soft delet 
+supersuser -- all access by default
+
+!!!! Do not drop table manually it will mess up your migration !!!
+If something bad happen 
+run migration zero
+delete data base if had to
+
+
+something can help you is migration zero
+or fake migration if needed
+https://stackoverflow.com/questions/46772762/django-migrate-fake-and-fake-initial-explained
+
+https://stackoverflow.com/questions/25606879/how-to-migrate-back-from-initial-migration-in-django-1-7
+
+If you drop table the autoincrement key will do fine as you do not need id which was deleted simple:
+https://stackoverflow.com/questions/27735375/django-model-instances-primary-keys-do-not-reset-to-1-after-all-instances-are-de
+
+______________________________________________
+
+1. Always put your css after head so it won't flicker as the css will be aplied after the page already
+Loaded. Always cancatenate your css file into one file so browser won't ask for next css file.
+
+2. Always put your scripts in footer befor </boyd> user will think the webpage is
+loading faster than it is.Instead of writing 10 different java script try to write one to 
+reduce the number of requests to the server.
+3. imp header content type and response
+4. Status doesn't matter if you do HTML it matters a lot if doing javascript
+200 -- Everything is fine
+300 -- You got redirected
+400 -- Errors
+500 -- Server blew up also an error
+
+-- browser == client
+
+5. &nbsp to add spaces in your html file.

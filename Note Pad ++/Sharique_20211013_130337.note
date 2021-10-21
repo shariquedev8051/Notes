@@ -1,0 +1,91 @@
+ADHD
+
+Procastination:- 
+	1.We don't know what to do.
+		1. What is the next step.
+	2.You don't like doing it.
+		1. Bored
+		2. Anxious
+
+How to do things:-
+	1. Decide what to do.
+	2. Break it down to steps
+	3. Take the next steps
+	4. If you still find yourself procastinating 
+		ask :- Why?
+		play music
+		take a walk
+	5. Correct the issue
+	6. Get back to work.
+	
+tips:-
+	start small 
+	start badly
+	find the right time
+	find the right place
+	reward yourself
+
+---------------------------------------
+
+Procastination Anxiety and win!!
+
+executive function system:- Responsible to do things done
+
+avoiding task as we are amxies -- We procastinate -- become anxies -- procastinate again -- and more anxies -- reapeat
+
+Doing makes you happy the problem is with doing it.
+If you are stressed :-
+	take a walk
+	stand up
+	do something
+		not gaming and porn.
+
+----------------------------------------
+
+1. getting things started
+	we have two timezone
+		now and not now
+	In childhood other kids have swithc
+		do the homework
+		take a bath
+		examination last date.
+	But as an adult it is going to be difficult
+2. We get distracted -- not our fault
+3. We don't know when to stop
+	* how to get started
+	* staying focused
+	* When to stop
+	Something bad happens and we overestimated the deadline and 
+	* we are late
+
+
+pomodora:- 25 min
+	no mobile phone
+	no snapchat
+	no gaming
+	-- Work for 25 min
+	
+	take 5 min break
+	
+
+
+
+-----------------------------------------
+=== Create a custom method for all project ===
+
+=== REST API === 
+
+create new project
+create new app
+register app
+initialize database
+
+data serialization:-
+
+from rest_framework import serializers
+
+class CommentSerializer(serializers.Serializer):
+    email = serializers.EmailField()
+    content = serializers.CharField(max_length=200)
+    created = serializers.DateTimeField()
+	

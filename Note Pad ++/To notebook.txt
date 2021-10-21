@@ -1,0 +1,76 @@
+towardsdatascience: walrus operator : https://towardsdatascience.com/the-walrus-operator-in-python-a315e4f84583
+
+Django -
+data-flair : django tutorial : https://data-flair.training/blogs/django-tutorial/
+geeksforgeeks: data time module : https://www.geeksforgeeks.org/python-datetime-module/
+w3schools : HTML : https://www.w3schools.com/html/default.asp
+video  - how to install windows  terminal on windows 10 - https://www.youtube.com/watch?v=SToV7pjxfhQ
+data-flair: sending Email in Django : https://data-flair.training/blogs/django-send-email/
+simpleisbetterthancomplex: Complet begginer guide : part 1 : https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html 
+													part 2 : https://simpleisbetterthancomplex.com/series/2017/09/11/a-complete-beginners-guide-to-django-part-2.html
+													part 3 : https://simpleisbetterthancomplex.com/series/2017/09/18/a-complete-beginners-guide-to-django-part-3.html
+													part 4 : https://simpleisbetterthancomplex.com/series/2017/09/25/a-complete-beginners-guide-to-django-part-4.html
+													part 5 : https://simpleisbetterthancomplex.com/series/2017/10/02/a-complete-beginners-guide-to-django-part-5.html
+													part 6 : https://simpleisbetterthancomplex.com/series/2017/10/09/a-complete-beginners-guide-to-django-part-6.html
+simpleisbetterthancomplex : How to split views : https://simpleisbetterthancomplex.com/tutorial/2016/08/02/how-to-split-views-into-multiple-files.html
+simpleisbetterthancomplex : How to create custom django managemnet commands : https://simpleisbetterthancomplex.com/tutorial/2018/08/27/how-to-create-custom-django-management-commands.html
+geeksforgeeks:filefield : https://www.geeksforgeeks.org/filefield-django-forms/
+refactoring guru : Design pattern :https://refactoring.guru/design-patterns/python
+tutorial point : design pattern: https://www.tutorialspoint.com/python_design_patterns/index.htm
+
+
+testdriven: custom user: https://testdriven.io/blog/django-custom-user-model/
+geeksforgeeks: Built in and custom model manager in Django : https://www.geeksforgeeks.org/built-in-custom-model-managers-in-django/
+video - CRUD project function based view with model form in Django: https://www.youtube.com/watch?v=OPc_oMgjhpM
+video - Django file upload
+
+
+========================
+		
+Sql installation -- video -- https://www.youtube.com/watch?v=OM4aZJW_Ojs
+sql - tutorial point -- https://www.tutorialspoint.com/sql/sql-update-query.htm
+sql - geeksforgeeks -- https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/
+sql - video -- sql in 4 hours -- https://www.youtube.com/watch?v=HXV3zeQKqGY
+
+=======================
+
+Decorators: geeksforgeeks: https://www.geeksforgeeks.org/decorators-in-python/
+programiz : https://www.programiz.com/python-programming/decorator
+python couse : https://www.python-course.eu/python3_decorators.php
+geeksforgeeks:https://www.geeksforgeeks.org/decorators-in-python/
+geeksforgeeks:https://www.geeksforgeeks.org/class-as-decorator-in-python/
+
+==========================
+Iterators:
+programiz: https://www.programiz.com/python-programming/iterator
+
+============================
+logging : realpython :https://realpython.com/python-logging/
+
+============================
+closure  : programiz : https://www.programiz.com/python-programming/closure
+
+=============================
+realpython:Reading and Writing CSV Files in Python: https://realpython.com/python-csv/
+programiz: Python CSV:https://www.programiz.com/python-programming/csv
+
+===============================
+realpython: A Guide to Excel Spreadsheets in Python With openpyxl :https://realpython.com/openpyxl-excel-spreadsheets-python/
+javapoint : python openpyxl : https://www.javatpoint.com/python-openpyxl
+
+================================
+geeksforgeeks: context manager: https://www.geeksforgeeks.org/context-manager-in-python/
+=============================
+geeksforgeeks: Understanding pickling with example: https://www.geeksforgeeks.org/context-manager-in-python/
+===============================
+programiz: Python custom exception: https://www.programiz.com/python-programming/user-defined-exception
+programiz: Python Exception Handling Using try, except and finally statement: https://www.programiz.com/python-programming/exception-handling
+=============================
+recommanded : 
+towardsdatascience: Switch-Case Statements Are Coming to Python:https://towardsdatascience.com/switch-case-statements-are-coming-to-python-d0caf7b2bfd3
+towardsdatascience:Do Not Use Print For Debugging In Python Anymore: https://towardsdatascience.com/do-not-use-print-for-debugging-in-python-anymore-6767b6f1866d
+
+================
+
+oops:
+geeksforgeeks:Private Variables in Python: https://www.geeksforgeeks.org/private-variables-python/

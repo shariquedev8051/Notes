@@ -1,0 +1,34 @@
+Reddit
+
+https://www.reddit.com/r/learnpython/comments/ctkypf/im_100_self_taught_landed_my_first_job_my/
+
+https://www.djangoproject.com/start/
+
+https://data-flair.training/blogs/python-tutorials-home/
+
+https://data-flair.training/courses/python-course/
+
+
+
+
+
+
+
+
+
+Random braindump
+
+    Use Python 3.6, there are some significant improvements over 2.7 - like enums and fstrings (I would switch to 3.6 just for fstrings, TBH)
+    .open() or .close() is often a code smell - you probably should be using a with block
+    Use virtualenv for every project - don't install python packages at the system level. This keeps your project environment isolated and reproducible
+    Use the csv module for CSVs (you'd be surprised...)
+    Don't nest comprehensions, it makes your code hard to read (this one from the Google style guide, IIRC)
+    If you need a counter along with the items from the thing you're looping over, use enumerate(items)
+    If you're using an IDE (as a Vim user I say you're crazy if you're not using Pycharm with Ideavim) take the time to learn it's features. Especially how to use the debugger, set breakpoints, and step through code
+    multiprocessing, not threading
+    Developing with a REPL like ipython or Jupyter alongside your IDE can be very productive. I am often jumping back and forth between them. Writing pure functions makes them easy to test / develop / use in the REPL. ipython and Jupyter have helpful magics like %time and %prun for profiling
+    Use destructuring assignment, not indices, for multiple assignment first, second, *_ = (1,2,3,4)
+    Avoid *args or **kwargs unless you know you need them - it makes your function signatures hard to read, and code-completion less helpful
+
+
+it is easy to know what to google.

@@ -1,0 +1,3 @@
+origin  https://github.com/shariquedev8051/Personal_Notes.git (fetch)
+origin  https://github.com/shariquedev8051/Personal_Notes.git (push)
+origin  https://shariquedev8051@bitbucket.org/sharique8051/personal-notes.git (push)

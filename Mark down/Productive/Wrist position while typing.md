@@ -1,0 +1,3 @@
+### Wrist position while typing..
+
+Keep wrists straight and fingers curved  over the keys, with thumbs hanging near the spacebar. Your wrists should be floating above and parallel to the keyboard. Avoid the temptation to settle your wrists onto the wrist pad; that’s for breaks between  typing, not when you’re actually pounding the keys. Even then, rest the  palms of your hands on it, not your wrists.

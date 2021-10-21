@@ -1,0 +1,101 @@
+Geekforgeek
+1. Make fundamental clear
+2. learn by practicing not by reading
+3. code by hand ...try if it works
+4. Teach someone
+5. Use online resources and boot camps
+6. Take breaks -- turn off your phone
+7. learn to use debugger
+
+“Give a man a program, frustrate him for a day.
+Teach a man to program, frustrate him for a lifetime.”
+― Muhammad Waseem 
+
+“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live”
+― John Woods 
+-------------------------------------------------------
+How to become good at a programming language?
+Study and practice. That part is simple.
+Often, though, one specific question (in many variations) comes up:
+How to remember all of this?
+People feel like they keep forgetting what they've already learned, that they have to read a tutorial or book over and over, and even then some stuff just won't stick. What can we do about that?
+I always give the same answer:
+In order to gradually transport your newly acquired knowledge into long-term memory, repeat the material with a proper schedule!
+Repeat it after one day, then two days later, four days, eight days ... after nine or ten repetitions, you normally have a firm grasp of what you've learned this way.
+Why does the brain work like that?
+
+Well, I am no biologist or anthropologist. My layman's view:
+
+Our brain has a built-in garbage collector. What we don't use regularly, apparently isn't needed - so it gets discarded.
+
+Convenient, isn't it? And in a natural environment where we just gather and hunt and do other simple tasks all the time, it should work reasonably well.
+
+With complex knowledge, though, it's not that simple: Some stuff we won't need all the time, but still sometimes! Bad, if we've already forgotten it, right?
+
+Noone will forget how Python's 'print' or 'input' works because we use it all the time. RegEx? More rarely. Some operating system stuff? Also not so often ...
+
+For information that doesn't come up every day we have to artificially create a requirement: By repeating it. Thereby we signal the brain: This is still needed, don't drop it!
+
+It is no substitute for studying, understanding and practice! This part always has to come first, because what you haven't understood, you will not remember, no matter what you do.
+But even after you have understood something, you may very well forget it if you never use it.
+
+Okay, after you understood how a proper repetition schedule looks and works ... how to actually do it?
+
+Yeah, it can become a bit of a mess. You would have to calculate all the dates for every bit of knowledge and constantly browse your notebooks looking for the vocab you need to repeat today. 
+It works - I did it like that for a while - but it's not really fun.
+
+That's why I made a little script which does it all for you.
+ \All you have to do is start the app every day and take a look if something needs to be repeated.
+
+Install Python (for example QPython3), copypaste this code into a file on your smartphone, save it into the most convenient folder (for example Scripts3 for QPython) and run it.
+
+Yeah, I know, it doesn't look like much. ;-) But it does the job, and I've been using (an older version of) it for months with success now.
+
+The program should be rather intuitive, but let me give you a quick introduction anyway.
+
+When you start your first data set, the script will create a folder 'cards' in that folder. From there, data is loaded, and there it will be saved. 
+Otherwise nothing will be changed - you can just erase the script if you don't want it anymore.
+
+You will be asked to name a file (set of cards). If you haven't made one yet, you'll make it now.
+
+You can create new material with the option 'Make new cards'. Pattern: Question and answer. This is exactly how the knowledge will be presented to you.
+
+In my experience, short items work best. Examples:
+
+Question: How does the print function work?
+
+Answer: print('Whatever')
+
+Question: Careful! The keywords private or protected ...
+
+Answer: ... mean different things in different languages!
+
+Question: In Ruby, private means ...
+
+Answer: ... that only the instance itself can access its data, not even other instances of the same class.
+
+The option 'Study cards' starts the learning mode. There you'll automatically find every item that has to be learned today.
+
+You don't have to type the answer - just decide after seeing it, if you knew it or if you didn't (we're not in school after all). Just be reasonable and honest about it and you're good to go.
+
+If you hit enter instead of 'y' or 'n', you will just skip the item. It will not go away - it remains there until you deal with it, so you can also do it a day or two later. (Don't wait too long, though, or you might forget it!)
+
+You can also take a break with 's' and continue later.
+
+You will get some information about how well you are doing. Don't obsess about it - it doesn't need to be perfect! Every card has zero to 5 stars. Everything between 3 to 5 is okay, only if you drop below that, it means that the topic maybe doesn't sit well; in that case you can reset the card - or erase it altogether.
+
+The percentage in the start screen shows the relation of your yes and no answers over the last 30 days. If you're doing well, this should be reasonably high, but something like 60 or 70 percent already means you're making progress. If you concentrate and do your repetitions properly, you will likely rather be in the 90ies, though.
+
+You don't have to save anything - after every change (like a learned card) the script automatically saves. That way you can be sure you don't lose what you did so far, no matter if your battery dies or you get distracted and close Python or something.
+
+One last detail: You can set the time-zone. It influences when the cards will be presented to you again, so you shouldn't mess around with it - just set it once so that the 'next day' doesn't begin at noon, then forget about it.
+
+I hope you will give this little script a try, and I certainly hope you will have success using it!
+
+If you write me a few lines about your experience (also bugs or ideas how to improve it) I'll be very happy.
+
+(Disclaimer: This is (I mean, look at it ^^) no professional product, I can't guarantee for anything; use it at your own risk.
+
+(Read the code to estimate the risk yourself, it's all basic and not hard - you might even find something for your first study card. ;-)))
+
+Good luck, and have fun!

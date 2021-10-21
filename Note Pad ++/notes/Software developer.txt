@@ -1,0 +1,4 @@
+Developer:
+	SDLC -- Software Development Life Cycle
+		IG -- Information Gathering
+		

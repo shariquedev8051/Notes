@@ -1,0 +1,15 @@
+Django:
+	create project -- django-admin startproject
+	create app	-- python manage.py startapp or django-admin startapp
+	register app -- Go to installed app in setting
+	change database Eingine --
+		-- create database in MYsql
+	runserver -- python manage.py runserver
+	make models -- in models in app folder
+	create template folder -- mkdir templates
+	register template folder -- setting template folder [] type template name
+	create templates -- in template folder
+	create urls -- import regix 
+	render and redirect -- When Get requist and Post request
+	Enjoy
+	

@@ -1,0 +1,22 @@
+TDO:-
+	test driven developement
+	testcases -- code
+		fail  -- code fails
+		pass  -- code ran properly
+		error -- error in test case
+
+combination of all test are test_suite
+	methode should be start with 'test'
+	
+changing based upon test case called as refactoring
+
+
+
+1.Test runner:- which runs the programm
+	if __name__ = '__main__':
+		unittest.main()
+		
+2.Test cases:- it is methode which is call through test suite
+	
+		
+		

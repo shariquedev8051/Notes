@@ -1,0 +1,4 @@
+Vscode tips and tricks:
+
+1. ctlr+J switch to command prompt
+2. change preference setting cntl + d for copy and past line below

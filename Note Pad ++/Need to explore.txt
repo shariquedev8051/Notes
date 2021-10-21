@@ -1,0 +1,5 @@
+web scrapping:
+https://www.datacamp.com/community/tutorials/web-scraping-using-python
+
+powershell to python:
+https://ridicurious.com/2018/03/30/powershell-scripting-guide-to-python-part1/

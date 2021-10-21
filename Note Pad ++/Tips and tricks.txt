@@ -1,0 +1,3 @@
+Always select ssh for cloning reposistory
+
+for note book : pip install jupyter_contrib_nbextensions && jupyter contrib nbextension install 

@@ -1,0 +1,2 @@
+1. Sql version which suportable on windows 7 is 8.0.12 and Django support 5.7 and above version.
+2. Python need service pack 1 and will tell addition update needed for python

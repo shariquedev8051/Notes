@@ -1,0 +1,2 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser 
+paste this command on powershell in adminstor mode

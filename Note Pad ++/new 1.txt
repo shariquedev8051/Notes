@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ShariqueDev$b5_library',
+        'USER': 'ShariqueDev',
+        'PASSWORD': 'Sharique@123',
+        'HOST': 'ShariqueDev.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
+    }
+}

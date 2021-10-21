@@ -1,0 +1,17 @@
+    
+	Iron Plates x4 (recommend x8)
+    Copper Plates x4 (recommend x8)
+    Steel Plates x1 (recommend x2)
+    Green Circuits x2 (recommend x4)
+    Red Circuits (Advanced Circuits) x1 (recommend x2)
+    Blue Circuits (Processing Units) x1
+    Plastic x1 (recommend x2)
+    Batteries x1
+    Stone Bricks + Stone x1
+    Coal x1
+    Lubricant (via pipe)
+    Sulfuric Acid (via pipe)
+
+miniloader
+megabot start
+squack through

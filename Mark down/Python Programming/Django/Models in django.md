@@ -22,3 +22,12 @@ exec(open(FILE_PATH).read())
 
 ## Relations
 
+### one to one relationship:-
+
+```python
+class Adhaar(models.Model):
+    uid = models.CharField(max_length=20, primary_key=True)
+    DOB = models.DateField(null=True)
+    employee = models.OneToOneField(Employee, related_name='adhaar', on_delete=models.CASCADE)
+```
+

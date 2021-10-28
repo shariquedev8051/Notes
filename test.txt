@@ -1,7 +1,0 @@
-If you can see this then 
-Well done !!!!
-<<<<<<< HEAD
-This from github
-=======
-
->>>>>>> 7c0abff67399901ea08abd9eaa63129850fbbb92

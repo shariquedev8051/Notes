@@ -1,0 +1,40 @@
+RightRev:
+1st round: 
+
+Diffrence between list and tuple
+which datatypes you can use as keys in dictionary
+django architechture
+request response cycle
+microservers
+memory management in python
+decorators
+which token based authentication you have used in your project
+what is your part in deployment
+how have handelled conflicts in code
+how you use branches
+who does integration testing
+which method you use for testing
+
+2nd round:
+how you test api
+how the data will be saveds using api
+if user passes improper data how will rest api act
+data structure---- queue, stack(senario based question)
+which(stack/queue) will you choose for your application
+destructos in python, explain how it works
+magic methods in django
+explain few magic methods
+difference between classmethod and instancemethod
+how you access instance method and class method outside class
+how you define protected method and private methods and how can you access them outeside class
+inheritace order in python, explain in detail
+what is middleware
+how middleware work
+
+
+
+
+
+
+
+

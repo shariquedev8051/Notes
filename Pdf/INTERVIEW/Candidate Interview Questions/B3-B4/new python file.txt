@@ -1,0 +1,682 @@
+	1. What is monkey patching?
+	2. What is decorator? Write decorator?
+	3. What is diff between PIP and Conda?
+	4. From where PIP installs the library?
+	5. what is lambda function in python
+	6. what is namespacing  
+	7. what are different scopes in python
+	8. what is difference between module and library in python
+	9. oops concepts, what is inheritance in python
+	10. what is join in database types of join, 
+	11. what is pass by value and pass by reference in python
+	12. property in python 		
+	13. datastructure in python
+	14. datatypes in python, explain each with functionality
+	15. why list is mutable
+	16. what is differece between mutability and immutability
+	17. what is hashing mechanism
+	18. what is the difference between == and is operator related to function
+	19. Difference between (try/except/finally) and (try/except/else)?
+	20. How to write our own exeption in python?
+	21. differece between .pyc and .py
+	22. differece between append and extend?
+	23. differece between unique and distinct
+	24. how map is work in python?
+	25. differece between function and lambda function?
+	26. what is closure and its usecase?
+	27. what is decorator? How you used in your project?
+	28. differece between tuple and list?
+	29. differece between normal for loop and list comphension?
+	30. explain call by value and call by reference?
+	31. How iterator can be used to generate the generator?
+	32. Difference between xrange and range?
+	33. Data type of xrange(1, 10)?  
+	34. Advatage of Python?
+	
+	-----------------------------------------------------------------
+	
+	35. What is MRO?
+	MRO is a concept used in inheritance. It is the order in which a method is searched for in a classes hierarchy and is especially useful in Python because Python supports multiple inheritance. In this case, the MRO would be C -> B -> A.
+	
+	------------------------------------------------------------------
+	
+	36. Concept of Iterator?
+	Iterator in python is an object that is used to iterate over iterable objects like lists, tuples, dicts, and sets. The iterator object is initialized using the iter() method. It uses the next() method for iteration.
+	
+	# Here is an example of a python inbuilt iterator
+	# value can be anything which can be iterate
+	iterable_value = 'Geeks'
+	iterable_obj = iter(iterable_value)
+	
+	while True:
+		try:
+	
+			# Iterate by calling next
+			item = next(iterable_obj)
+			print(item)
+		except StopIteration:
+	
+			# exception will happen when iteration will over
+			break
+	----------------------------------------------------------------------------------------------------------------------------
+	
+	37. What is super?
+	The super() builtin returns a proxy object (temporary object of the superclass) that allows us to access methods of the base class.
+	-------------------------------------------------------------------------------------------------------------------------------
+	38. Int is immutable then A = 2 A = 4 how? 
+	Memory location or id will be different 
+	 
+	------------------------------------------------------------------------------------------------------------------------------ 
+	
+	39. How python manages the memory?
+	https://www.geeksforgeeks.org/memory-management-in-python/
+	 
+	------------------------------------------------------------------------------------------------------------------------------
+	
+	40. What is context management in python? Ex. with open
+	https://www.geeksforgeeks.org/context-manager-in-python/
+	
+	-------------------------------------------------------------------------------------------------------------------------------
+	41. What are the magic methods? Dendor methode
+	Dunder or magic methods in Python are the methods having two prefix and suffix underscores in the method name. Dunder here means “Double Under (Underscores)”. These are commonly used for operator overloading. Few examples for magic methods are: __init__, __add__, __len__, __repr__ etc.
+	
+	# declare our own string class
+	class String:
+	      
+	    # magic method to initiate object
+	    def __init__(self, string):
+	        self.string = string
+	          
+	    # print our string object
+	    def __repr__(self):
+	        return 'Object: {}'.format(self.string)
+	
+	** difference between str and repr ?
+	str() and repr() both are used to get a string representation of object.
+	• repr() compute the “official” string representation of an object (a representation that has all information about the object)
+	and str() is used to compute the “informal” string representation of an object (a representation that is useful for printing the 
+	object).
+	 
+	***********************************************************************************
+	42. 1*2*3*4*5*6* - print on console? Print("1*2*3*4*5*6*")
+	***************************************************************************************
+	43. How u use the numpy in ur project?
+	I have knowledge about numpy but I havent implemented in my project … cheatsheet .
+	*********************************************************************************
+	44. What is instance , static and class method?
+	 
+	1. Instance Methods
+	2. Class Methods
+	3. Static Methods 
+	
+	1. Instance Methods:
+	Inside method implementation if we are using instance variables then such type of methods are
+	called instance methods.
+	Inside instance method declaration,we have to pass self variable.
+	def m1(self):
+	By using self variable inside method we can able to access instance variables.
+	Within the class we can call instance method by using self variable and from outside of the class
+	we can call by using object reference. 
+	
+	Setter Method:
+	setter methods can be used to set values to the instance variables. setter methods also known as
+	mutator methods.
+	syntax:
+	def setVariable(self,variable):
+	self.variable=variable 
+	
+	Getter Method:
+	Getter methods can be used to get values of the instance variables. Getter methods also known as
+	accessor methods.
+	syntax:
+	def getVariable(self):
+	return self.variable 
+	
+	2. Class Methods:
+	Inside method implementation if we are using only class variables (static variables), then such type
+	of methods we should declare as class method.
+	We can declare class method explicitly by using @classmethod decorator.
+	For class method we should provide cls variable at the time of declaration 
+	We can call classmethod by using classname or object reference variable. 
+	Demo Program:
+	1) class Animal:
+	2) legs=4
+	3) @classmethod
+	4) def walk(cls,name):
+	5) print('{} walks with {} legs...'.format(name,cls.legs))
+	6) Animal.walk('Dog')
+	7) Animal.walk('Cat') 
+	
+	3. Static Methods:
+	In general these methods are general utility methods.
+	Inside these methods we won't use any instance or class variables.
+	Here we won't provide self or cls arguments at the time of declaration.
+	We can declare static method explicitly by using @staticmethod decorator
+	We can access static methods by using classname or object reference 
+	
+	
+	1) class DurgaMath:
+	2)
+	3) @staticmethod
+	4) def add(x,y): 
+	5) print('The Sum:',x+y)
+	6)
+	7) @staticmethod
+	8) def product(x,y):
+	9) print('The Product:',x*y)
+	10)
+	11) @staticmethod
+	12) def average(x,y):
+	13) print('The average:',(x+y)/2)
+	14)
+	15) DurgaMath.add(10,20)
+	16) DurgaMath.product(10,20)
+	17) DurgaMath.average(10,20)
+	Output
+	The Sum: 30
+	The Product: 200
+	The average: 15.0 
+	
+	Note: In general we can use only instance and static methods.Inside static method we can access
+	class level variables by using class name.
+	class methods are most rarely used methods in python. 
+	
+	
+	*********************************************************************************
+	
+	45. What is diff between threads and subprocess?
+	Project implementation -- for speeding up the email sending using multithreading .
+	Speeding up Django Email Sending using Multithreading [24]
+	
+	Multi Tasking:
+	Executing several tasks simultaneously is the concept of multitasking.
+	There are 2 types of Multi Tasking
+	1. Process based Multi Tasking
+	2. Thread based Multi Tasking
+	Every Python Program by default contains one thread which is nothing but MainThread. 
+	Every Python Program by default contains one thread which is nothing but MainThread. 
+	1. Process based Multi Tasking:
+	Executing several tasks simmultaneously where each task is a seperate independent process is
+	called process based multi tasking.
+	Eg: while typing python program in the editor we can listen mp3 audio songs from the same
+	system. At the same time we can download a file from the internet. All these taks are executing
+	simultaneously and independent of each other. Hence it is process based multi tasking.
+	This type of multi tasking is best suitable at operating system level.
+	
+	2. Thread based MultiTasking:
+	Executing several tasks simultaneously where each task is a seperate independent part of the
+	same program, is called Thread based multi tasking, and each independent part is called a Thread.
+	This type of multi tasking is best suitable at programmatic level.
+	Note: Whether it is process based or thread based, the main advantage of multi tasking is to
+	improve performance of the system by reducing response time.
+	
+	The main important application areas of multi threading are:
+	1. To implement Multimedia graphics
+	2. To develop animations
+	3. To develop video games
+	4. To develop web and application servers
+	etc...
+	Note: Where ever a group of independent jobs are available, then it is highly recommended to
+	execute simultaneously instead of executing one by one.For such type of cases we should go for
+	Multi Threading.
+	Python provides one inbuilt module "threading" to provide support for developing threads. Hence
+	developing multi threaded Programs is very easy in python. 
+	Every Python Program by default contains one thread which is nothing but MainThread. 
+	
+	********************************************************************************************
+	46. Advatage of multithreading ?
+	Multithreading allows the execution of multiple parts of a program at the same time. These parts are known as threads and are lightweight processes available within the process. So multithreading leads to maximum utilization of the CPU by multitasking.
+	
+	--Resource Sharing
+	All the threads of a process share its resources such as memory, data, files etc. A single application can have different threads within the same address space using resource sharing.
+	
+	--Responsiveness
+	Program responsiveness allows a program to run even if part of it is blocked using multithreading. This can also be done if the process is performing a lengthy operation. For example - A web browser with multithreading can use one thread for user contact and another for image loading at the same time.
+	
+	--Utilization of Multiprocessor Architecture
+	In a multiprocessor architecture, each thread can run on a different processor in parallel using multithreading. This increases concurrency of the system. This is in direct contrast to a single processor system, where only one process or thread can run on a processor at a time.
+	
+	--Economy
+	It is more economical to use threads as they share the process resources. Comparatively, it is more expensive and time-consuming to create processes as they require more memory and resources. The overhead for process creation and management is much higher than thread creation and management.
+	 
+	 
+	************************************************************************************************
+	47. What is lock threading?
+	Synchronization By using Lock concept:
+	Locks are the most fundamental synchronization mechanism provided by threading module.
+	We can create Lock object as follows
+	l=Lock()
+	The Lock object can be hold by only one thread at a time.If any other thread required the same
+	lock then it will wait until thread releases lock.(similar to common wash rooms,public telephone
+	booth etc)
+	A Thread can acquire the lock by using acquire() method.
+	l.acquire()
+	A Thread can release the lock by using release() method.
+	l.release()
+	Note: To call release() method compulsory thread should be owner of that lock.i.e thread should
+	has the lock already,otherwise we will get Runtime Exception saying
+	RuntimeError: release unlocked lock
+	
+	*********************************************************************************************
+	48. What is threding in terms of operating system?p
+	https://www.tutorialspoint.com/operating_system/os_multi_threading.htm
+	A thread is a flow of execution through the process code, with its own program counter that keeps track of which instruction to execute next,
+	system registers which hold its current working variables, and a stack which contains the execution history.
+	A thread is also called a lightweight process. Threads provide a way to improve application performance through parallelism.
+	Threads represent a software approach to improving performance of operating system by reducing the overhead thread is equivalent
+	to a classical process.
+	Types of Thread
+	Threads are implemented in following two ways −
+
+	User Level Threads − User managed threads.
+
+	Kernel Level Threads − Operating System managed threads acting on kernel, an operating system core.
+
+	*********************************************************************************************
+	49. Where the python object get stored?
+	Everything in python is object. Python stores object in heap memory and reference of object in stack. 
+	Variables, functions stored in stack and object is stored in heap.
+
+	*********************************************************************************************
+	52. How threads are managed?
+	https://www.shanelynn.ie/using-python-threading-for-multiple-results-queue/
+	. It allows you to manage concurrent threads doing work at the same time. The library is called “threading“,
+	you create “Thread” objects, and they run target functions for you.
+	
+	*********************************************************************************************
+	53. What is synchronous and asynchronous?
+	-Synchronous basically means that you can only execute one thing at a time. Asynchronous means that you can execute multiple 
+	things at a time and you don't have to finish executing the current thing in order to move on to next one
+	
+	-Examples of synchronous communication are phone calls or video meetings. Asynchronous communication happens
+	when information can be exchanged independent of time. ...
+	Examples of asynchronous communication are emails, online forums, and collaborative documents.
+	
+	*********************************************************************************************
+	57. Write a programme for banking system.
+import sys
+import time
+class Bankapp:
+    bankName= 'Welcome to HDFC Bank Limited'
+    def __init__(self,accno,name,balance=4000):
+        self.Account=accno
+        self.Name=name
+        self.Bal=balance
+    def Balanc(self):
+        return self.Bal
+    def Creadit(self,amt):
+        self.Bal += amt
+        self.Amount = amt
+        return self.Balanc()
+    def Withdrawl(self,amt):
+        if amt<= self.Bal:
+            self.Bal -= amt
+        return self.Balanc()
+    def Loan(self):
+        min_balance=1000
+        if self.Bal> min_balance:
+            amt=(self.Bal-min_balance)*2
+            print("Please wait Your application is processed......")
+            time.sleep(2)
+            print(f"congratulations you are eligible for loan of rupees {amt}   ")
+            return f"Your account Balance is {self.Bal}" 
+        else:
+            print("Please wait Your application is processed......")
+            time.sleep(2)
+            print("Sorry You are not eligible for Loan... ")
+            return ("Thank You for using  Application")
+
+            
+    def Fixed_depo(self):
+        while True:
+            print('''
+            1 = 0-6 months
+            2 = 7-13 Months
+            3 = 14-24 Monts
+            4 = 25 months-5 Years
+            E = exit
+                  ''')
+            user_input=input("Please Enter Choice : ")
+            if user_input in ["1"]:
+                amt = float(input("Enter the amount to be deposited: "))
+                intrst=amt*0.04
+                print("Please Wait your Request is Processing")
+                time.sleep(3)
+                print(f"You will get { intrst} intrest on your {amt} amount")
+                print(f"Total amount you will get {amt+intrst} after completion of your FD period")
+            elif user_input in ["2"]:
+                amt = float(input("Enter the amount to be deposited: "))
+                intrst=amt*0.06
+                print("Please Wait your Request is Processing")
+                time.sleep(3)
+                print(f"You will get { intrst} intrest on your {amt} amount")
+                print(f"Total amount you will get {amt+intrst} after completion of your FD period")
+            elif user_input in ["3"]:
+                amt = float(input("Enter the amount to be deposited: "))
+                intrst=amt*0.08
+                print("Please Wait your Request is Processing")
+                time.sleep(3)
+                print(f"You will get { intrst} intrest on your {amt} amount")
+                print(f"Total amount you will get {amt+intrst} after completion of your FD period")
+            elif user_input in ["4"]:
+                amt = float(input("Enter the amount to be deposited: "))
+                intrst=amt*0.1
+                print("Please Wait your Request is Processing")
+                time.sleep(3)
+                print(f"You will get { intrst} intrest on your {amt} amount")
+                print(f"Total amount you will get {amt+intrst} after completion of your FD period")      
+            else:
+                user_input == 'E' or 'e'
+                print("Thank for Using this Application !!!!!!!!!!!")
+                sys.exit()
+    
+
+    
+        
+c1=Bankapp(111,'SBI',1000)
+# print(c1.bankName)
+# print("Balanced is :",c1.Balanc())
+# print("Available Balanced is:",c1.Creadit(5000))
+# print("Balanced After Withdrawal is: ",c1.Withdrawl(510))
+
+import sys
+
+while True:
+    print('''
+    C = Check Balanced
+    D = Deposit
+    W = Withdrawal
+    L = Loan Enquiry
+    F = Fixed Deposit
+    E = exit
+         ''')
+    user_input=input("Please Enter Choice : ")
+    if user_input in ['c','C']:
+        print(c1.Balanc())
+    elif user_input.lower()== 'd':
+        print(c1.Creadit(int(input("Please Enter Amount to Deposited: "))))
+    elif user_input in ['W','w']:
+        print(c1.Withdrawl(float(input("Please Enter amount to be Withdrawal : "))))
+    elif user_input in ['L','l']:
+        print(c1.Loan())    
+    elif user_input == 'F' or 'f':
+        print(c1.Fixed_depo())
+    elif user_input == 'E' or 'e':
+        print("Thank for Using this Application !!!!!!!!!!!")
+        sys.exit()
+    else:
+        print("Please Enter ur Choice : ")        
+
+#######################################################################################################################################################################3
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+	58. Diff between __new__ and __init__?
+->__new__ with __init__ The main difference is: __new__ Is used to create an instance of a class (constructor), and __init__ Is used to initialize an instance (initializer).
+
+	59. What is micro services?p
+	60. How django manages the heavy load?tj
+	61. How load management done in django?
+	62. How to connect to diff microservices?tj
+	63. Which WSGI server used?
+->WSGI stands for "Web Server Gateway Interface". It is used to forward requests from a web server (such as Apache or NGINX) to a backend Python web application or framework.It is used as an interface between application server to connect with django or any python framework which implements wsgi specified by python community, taking about usage mostly you will see it is used with gunicorn.
+
+	64. How to redirect to another server in case of heavy load?tj
+	65. What is gunicorn?
+->he Gunicorn "Green Unicorn" (pronounced jee-unicorn or gun-i-corn) is a Python Web Server Gateway Interface (WSGI) HTTP server.Gunicorn is an application server for running your python application instance. NGINX is a reverse proxy. It accepts incoming connections and decides where they should go next. It is in front of Gunicorn.
+Nginx has some web server functionality (e.g., serving static pages; SSL handling) that gunicorn does not, whereas gunicorn implements WSGI (which nginx does not).why do we need two servers? Think of Gunicorn as the application web server that will be running behind nginx – the front- facing web server. Gunicorn is WSGI-compatible. It can talk to other applications that support WSGI, like Flask or Django.
+	
+	6##################################################################################################################################
+
+	69. What is negative indexing? Give a live example where it was used
+	==> Python uses a zero-based indexing system, meaning that the first element in a sequence is located at position 0. 
+		Negative indices allow you to refer to an item's position relative to the end of the list.
+	
+	**** The negative index is used to remove any new-line spaces from the string and allow the string to except the last character that is given as S[:-1]. 
+		The negative index is also used to show the index to represent the string in correct order.
+	
+##############################################################################################################################################
+
+	70. What is slicing in a list? How do you achieve it
+	==> slicing is a flexible tool to build new lists out of an existing list.
+		List slicing refers to accessing a specific portion or a subset of the list for some operation while the orginal list remains unaffected. 
+		The slicing operator in python can take 3 parameters out of which 2 are optional depending on the requirement.
+	
+	**** If L is a list, the expression L [ start : stop : step ] returns the portion of the list from index start to index stop, at a step size step.
+	
+##############################################################################################################################################
+
+	71. Are array used in python? If yes give an example 
+	==> A Python Array is a collection of common type of data structures having elements with same data type. 
+		It is used to store collections of data. In Python programming, an arrays are handled by the "array" module. 
+		
+		synataxx to create an array:   arrayName = array.array(type code for data type, [array,items])
+				eg. import array as myarray
+					abc = myarray.array('d', [2.5, 4.9, 6.7])
+		
+	*** referance == https://www.guru99.com/python-arrays.html	
+	
+##############################################################################################################################################
+
+	75. What is a constructor? Why is it used?Give an example of its use in any of your projects.
+	==> Constructors are generally used for instantiating an object. 
+		The task of constructors is to initialize(assign values) to the data members of the class when an object of class is created.
+		In Python the __init__() method is called the constructor and is always called when an object is created
+		
+		eg. class Addition:
+				first = 0
+				second = 0
+				answer = 0
+				  
+				# parameterized constructor
+				def __init__(self, f, s):
+					self.first = f
+					self.second = s
+	
+##############################################################################################################################################
+
+	76. What will be the logic if the output should be generated after 5 seconds using sleeptime logic once an object is called?
+	==> import time
+		time.sleep(5)
+	
+##############################################################################################################################################
+
+	77. What are generators? What are its benefits? How are they different from iterators?
+	==> Python provides a generator to create your own iterator function. 
+		A generator is a special type of function which does not return a single value, instead, 
+		it returns an iterator object with a sequence of values. In a generator function, a yield statement is used rather than a return statement.
+		
+			eg. def simpleGeneratorFun():
+						yield 1            
+						yield 2            
+						yield 3            
+	   
+			# Driver code to check above generator function
+			for value in simpleGeneratorFun(): 
+				print(value)
+				
+		
+	**** Iterators are used mostly to iterate or convert other objects to an iterator using iter() function. 
+		Generators are mostly used in loops to generate an iterator by returning all the values in the loop without affecting the iteration of the loop. 
+		Iterator uses iter() and next() functions.
+	
+	***** Deiffrence between generators and iterators
+			referance == https://www.geeksforgeeks.org/difference-between-iterator-vs-generator/
+			
+			
+##############################################################################################################################################
+
+	78. What are the different OOPs concept? How have you used them in your project?
+	==> abstraction, encapsulation, inheritance, and polymorphism.
+	
+##############################################################################################################################################
+
+	79. Types of inheritance? What is hierarchial inheritance? Give an example of it.
+	==> Types Of Inheritance
+			1) Single Inheritance
+			2) Multiple Inheritance
+			3) Multilevel Inheritance
+			4) Hierarchical Inheritance
+			5) Hybrid Inheritance
+			
+			**** For examples : https://www.edureka.co/blog/inheritance-in-python/
+	
+##############################################################################################################################################
+
+	80. A program to add all digits in an array.
+	==> https://www.journaldev.com/33185/python-add-to-array
+	
+	If you are using List as an array, you can use its append(), insert(), and extend() functions. You can read more about it at Python add to List.
+	If you are using array module, you can use the concatenation using the + operator, append(), insert(), and extend() functions to add elements to the array.
+			######### Example ########
+					import array
+
+					arr1 = array.array('i', [1, 2, 3])
+					arr2 = array.array('i', [4, 5, 6])
+
+					print(arr1)  # array('i', [1, 2, 3])
+					print(arr2)  # array('i', [4, 5, 6])
+
+					arr3 = arr1 + arr2
+					print(arr3)  # array('i', [1, 2, 3, 4, 5, 6])
+
+					arr1.append(4)
+					print(arr1)  # array('i', [1, 2, 3, 4])
+
+					arr1.insert(0, 10)
+					print(arr1)  # array('i', [10, 1, 2, 3, 4])
+
+					arr1.extend(arr2)
+					print(arr1)  # array('i', [10, 1, 2, 3, 4, 4, 5, 6])
+					
+			################################
+
+	If you are using NumPy arrays, use the append() and insert() function.
+	
+##############################################################################################################################################
+
+	82. What are different ways to connect to a destination server using AWS?
+	==> AWS support many ways to let you connect to your servers(EC2), we will introduce three methods : 
+		SSH, Instance Connect, System Manager and deep dive in EC2 Instance Connect and System Manager – Session Manager.0
+	
+##############################################################################################################################################
+
+	84. Write a program to find even numbers in a list in an ascending order using lambda function.
+	==> even_no = list(filter(lambda x: (x % 2 == 0), range(100))
+		print("Even numbers in the list: ", even_no)
+	
+##############################################################################################################################################
+
+	85. Give a real life example where tuple was used. Could it be replaced by a list? If yes/no. What is the reason?
+	==> You can use a Tuple to store the latitude and longitude of your home, 
+		because a tuple always has a predefined number of elements (in this specific example, two). 
+		The same Tuple type can be used to store the coordinates of other locations.
+		
+		*** We can not use list insread of tuple:
+			Lists can never be used as tuple, because lists are not immutable.
+	
+##############################################################################################################################################
+
+	86. Give a real time example where lambda function was used.
+	==> Lambda functions are used when you need a function for a short period of time. 
+		This is commonly used when you want to pass a function as an argument to higher-order functions, 
+		that is, functions that take other functions as their arguments.
+		
+		eg. adds the 2 parameters we passed. Notice that it is a single expression.
+				adder = lambda x, y: x + y
+				print (adder (1, 2))
+	
+##############################################################################################################################################
+
+	87. What are the different testing methods used by you?
+	==> Unittest and Pytest
+	
+##############################################################################################################################################
+
+	88. What is significance of using Unittest and pytest? Which is better method (tj)
+	==> https://knapsackpro.com/testing_frameworks/difference_between/unittest/vs/pytest
+	
+	Although both the frameworks are great for performing testing in python, pytest is easier to work with. The code in pytest is simple, compact, and efficient.
+	For unittest, we will have to import modules, create a class and define the testing functions within that class. 
+	But for pytest, we only have to define the testing function. Pytest is also fast and efficient.
+	
+	
+-----------------------------------------------------------------------------------------------------------------------------------------
+	89. What is the command to run a test?(tt)
+-> 1) python manage.py test
+-> 2) For pytest       ===  py.test -v -s
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+	90. How do you achieve a test in unitesting?
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	91. Are duplicates used in a list? How to remove duplicates from a list?
+-> Yes Duplicates are used in a list.
+   1)To remove duplicates from a given list, you can make use of an empty temporary list
+		my_list = [1, 2, 3, 1, 2, 4, 5, 4 ,6, 2]
+		temp_list = []
+		for i in my_list:
+    		    if i not in temp_list:
+        		temp_list.append(i)
+		print(temp_list)
+   
+   2)to remove duplicates using dict.fromkeys() method.
+		my_list = ['a','x','a','y','a','b','b','c']
+		my_final_list = dict.fromkeys(my_list)
+		print(list(my_final_list))
+
+   3)Remove duplicates from list using Numpy unique() method.
+		import numpy as np
+		my_list = [1,2,2,3,1,4,5,1,2,6]
+		myFinalList = np.unique(my_list).tolist()
+		print(myFinalList)
+   4)Remove duplicates from list using Pandas methods
+		import pandas as pd
+		my_list = [1,2,2,3,1,4,5,1,2,6]
+		myFinalList = pd.unique(my_list).tolist()
+		print(myFinalList)
+----------------------------------------------------------------------------------------------------------------------------------------------------
+	92. What is alaising and cloning?
+-> The process of giving another reference variable to the existing list is called aliasing. content, then those changes will be reflected to the other reference variable. To overcome this problem we should go for cloning. The process of creating exactly duplicate independent object is called cloning.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+	93. What is shallow copy?what is deep copy ?advantages of each?
+-> 		A shallow copy is a copy of an object that stores the reference of the original elements. It creates the new collection object and then occupying it with reference to the child objects found in the original.
+		It makes copies of the nested objects' reference and doesn't create a copy of the nested objects. So if we make any changes to the copy of the object will reflect in the original object. We will use the copy() function to implement it.
+		Advantage:-Shallow copy is the way with least effort, doing less. It is especially suited for immutable objects, where sharing is optimal. An immutable object does not have an internal state, cannot be changed, only variables can be set to another value.
+
+->		A deep copy is a process where we create a new object and add copy elements recursively. We will use the deecopy() method which present in copy module. The independent copy is created of original object and its entire object. in the deep copy all fields of the original objects are copied exactly, in addition to this, if it contains any objects as fields then copy of those is also created (using the clone() method).
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	94. How to overcome limitations of shallow copy?(tt)
+
+-> a shallow copy is suitable only when we don’t have to deal with compound objects. Making a shallow copy of an object won't clone child objects. Therefore, the copy is not fully independent of the original. A deep copy will take a copy of the original object and will then recursively take copy of the inner objects which are found. The clone is fully independent of the original, but creating a deep copy is slower.
+------------------------------------------------------------------------------------------
+Difference:----	
+
+S>> Shallow Copy stores the references of objects to the original memory address    D>> Deep copy stores copies of the object’s value.
+S>> Shallow Copy reflects changes made to the new/copied object                     D>> Deep copy doesn’t reflect changes made to the 
+    in the original object.								new/copied object in the original object.
+S>> Shallow Copy stores the copy of the original object and points                  D>> Deep copy stores the copy of the original object
+    the references to the objects. 						        and recursively copies the objects as well.
+S>> Shallow copy is faster.							    D>> Deep copy is comparatively slower.
+	
+
+
+############################################################################################
+
+
+Your understanding is mostly correct. You use select_related when the object that you're going to be selecting is a single object, so OneToOneField or a ForeignKey. You use prefetch_related when you're going to get a "set" of things, so ManyToManyFields as you stated or reverse ForeignKeys. Just to clarify what I mean by "reverse ForeignKeys" here's an example:
+
+
+
+class ModelA(models.Model):
+    pass
+
+class ModelB(models.Model):
+    a = ForeignKey(ModelA)
+
+ModelB.objects.select_related('a').all() # Forward ForeignKey relationship
+ModelA.objects.prefetch_related('modelb_set').all() # Reverse ForeignKey relationship
+
+
+The difference is that select_related does an SQL join and therefore gets the results back as part of the table from the SQL server. prefetch_related on the other hand executes another query and therefore reduces the redundant columns in the original object (ModelA in the above example). You may use prefetch_related for anything that you can use select_related for.
+
+The tradeoffs are that prefetch_related has to create and send a list of IDs to select back to the server, this can take a while. I'm not sure if there's a nice way of doing this in a transaction, but my understanding is that Django always just sends a list and says SELECT ... WHERE pk IN (...,...,...) basically. In this case if the prefetched data is sparse (let's say U.S. State objects linked to people's addresses) this can be very good, however if it's closer to one-to-one, this can waste a lot of communications. If in doubt, try both and see which performs better.
+
+Everything discussed above is basically about the communications with the database. On the Python side however prefetch_related has the extra benefit that a single object is used to represent each object in the database. With select_related duplicate objects will be created in Python for each "parent" object. Since objects in Python have a decent bit of memory overhead this can also be a consideration.

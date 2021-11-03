@@ -1,0 +1,11 @@
+1. what OOPS concepts have you used in the project?
+2. types of inheritance
+3. how does a single inhertiance works, perform it in an notepad/online complier
+4. where did you use multi-level inheritance?
+5. pickle and unpickle
+6. take any string, str1="Hello" and perform print(str1[:-0]) in notepad and tell the output
+7. where have you used static and dynamic data in your project?
+8. multithreading
+9. how to connect python with the database
+10. project related brief, roles and responsibilites.
+11. overloading vs overriding

@@ -1,0 +1,21 @@
+What is iterator?
+what is generator?
+what is yield?
+what is list?
+what is set?
+What is Decorator and write a code on that?
+what is dictionary?
+Difference between *args and **kwargs and write a code on that?
+In SQL what is Drop and Delete?
+What is Abstract class?
+What is a class and a object?
+What is init?
+what is self?
+What is POST, PATCH and Put?
+
+Q. Print the Output considering the list
+l = [1,2,3,1,2,3,4,1,2,3,4]
+O/P = {1:[0,3,7], 2:[1,4,8], ....}
+
+
+

@@ -1,0 +1,9 @@
+1. Project Architecture
+2. what type of challanges did you face while working on your current project
+3. datastructure in python
+4. datatypes in python, explain each with functionality
+5. why list is mutable
+6. what is differece between mutability and immutability
+7. what is hashing mechanism
+8. what is the difference between == and is operator
+9. related to function

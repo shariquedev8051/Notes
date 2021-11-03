@@ -1,0 +1,14 @@
+1)tell me about your project? 
+2)How to flatten the list?
+  list = [1 ,4 [9,7,8,[9,10,3,5],8],5,6,[8,5,89,7] ,7]
+2)how to count character in string? print it with index.
+3)Explain Context manager? with ex.
+4)Explain Authentication in Django?
+5)Explain Middlewere? what is the use of middlewere?
+6)when we hit url in the browser,then what happend in the brackground, tell me the process?
+7)what is conflict in git ? and how to solve it?
+8)If i have model with name and salary fields and i want to save date automatically in database,along with this fields , how can i achieve this? 
+9)What is unit testing in Django?how to test views in django?
+
+
+ 

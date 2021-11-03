@@ -1,0 +1,23 @@
+1.How you render your database data in your HTML template?
+2. What is the difference between container and container-fluid tags in Bootstrap?
+3. how do you handle the API security?
+4. How did jWT token works internally?
+5. what does the http code 200 means? How did you manage it in your project?
+6 what is parallel processing have you implement it in your project?
+7. What is MVT? Describe it as as per your project?
+8. How you manage images in your project required?
+9. What is the difference between list and tuple?
+10.What is set
+11. What are the different data types supported by the python?
+12. What is dictionary? How you can access dictionary data? What would be the output if access data in such a way?
+13. What is comprehension? Explain list,set,dictionary comprehension?
+14. why you use list comprehension? Explain the scenario to use it?
+15. If your team lead use bootstrap in place of HTML will you prefer it? Why?
+16. where did you use list and tuple? Why?
+17. How you refresh your database access connection provided by a project manager?
+18 How you will modify file which you have been from remote repository.
+19. How you can manage the appearance of your website laptop as well as cell phones?
+20. What are the decorators? Where you used in your project?
+21. What do you do in your day to day watching life?
+22. If you have to change Technology on which you are working will you comfortable?
+23. Do you have any questions for us?

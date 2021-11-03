@@ -1,0 +1,17 @@
+1.Difference between list and tuple? 
+2. what is serverless computing?
+3 what is linked list? Why it used?
+4 what is dynamic programming?
+5 unit test and pytest
+6 what is aws create the instance?
+7 what is aws Lambda ?
+8 what are the different ways to traverse a list?
+9 how to delete an element from the list
+10. What are the different sorting algorithms in Python?
+----------------------------------------------------------
+ programs
+1. Remove first element from the list
+2 remove duplicate entries from the list
+3 print hello using main function
+4 delete first element from the given list
+5.[{'a:'1,'b':2':c':3}{'a':1,'b':2,'c':3}] how would you extract2  from the given list

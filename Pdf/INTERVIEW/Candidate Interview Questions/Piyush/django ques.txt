@@ -1,0 +1,48 @@
+Benefit of using django templete engine?
+How to get current page url in django template?
+what is makemigrations and migrate?
+what are the field types in django models?
+Fetch the one employee who have 3rd highest salary?  - by limit or ordered_by
+Storage engine for mysql in django? 
+Databases storage engines? - Default- MyISM
+Why u should go for MyISM?
+Have u worked on Javascript?
+how to deploy project on server -- 
+write rest api for college application, where principal can access student list
+Project Architecture
+what type of challanges did you face while working on your current project
+What is REST-API?
+Purpose of json.dumps() and json.loads()?
+What is singlton design pattern?
+How it singlton is implemented?
+I need to create the another new object of that singlton class in another module? Then wat need to do? 
+Fetch the data from server by using requests library in try and except block?
+By hitting a API, u will get the status, so how to handle the statuses? Eg. 200 we got then how to represent?
+What is factory design pattern? Write it.
+Tell me about your daily routine?
+how to manage filesystem for linux and file system for windows?
+what is the usecase of signaling?
+what is middleware and why we use middleware?
+request flow in django?
+difference between flask and django?
+have you used Nginx in your project?
+what is the command for makemigrations?
+explain unittesting?
+Challenges in ur project?
+Diff between get and post method?
+How u write a get request?
+What is ORM?
+How login logout authentication works?
+Write a programme for banking system.
+Diff between __new__ and __init__?
+What is micro services?
+How django manages the heavy load?
+How load management done in django?
+How to connect to diff microservices?
+Which WSGI server used?
+How to redirect to another server in case of heavy load?
+What is gunicorn?
+What is multithreading?
+What is path in URL?
+Prepocessing before hitting URL?
+How to send one mail to bulk user?

@@ -1,0 +1,10 @@
+
+Accolite Digital: 
+
+1. Add two list together
+2. Convert list to Dictinary
+3. Zip lists together
+4. Python to database connectivity
+5. How to extract data from JSON file
+6. What are the different modes in file handling
+7. Different Python modules you have used in your current projects

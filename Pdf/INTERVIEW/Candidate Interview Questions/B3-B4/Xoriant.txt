@@ -1,0 +1,10 @@
+1. What is Serializers and write a class using serializers?
+2. Write Django Database connectivity lines
+3. What is API?
+4. Write Try block
+5. Write a class and use all the OOPS concept in it
+6. How to deploy project in an instance in AWS?
+7. What is Django templates
+8. What is Middleware
+9. What are Views in Django
+10. What is Constructor Overriding

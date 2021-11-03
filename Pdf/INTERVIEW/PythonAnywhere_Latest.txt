@@ -1,0 +1,67 @@
+
+
+GitHub Account -- http://github.com
+PythonAnywhere Account -- https://pythonanywhere.com
+Download Git for windows and install it on your machine.
+Make sure -- git command is working on your local machine..
+Make sure ur project is working  -- 
+
+-------------------------------------------------------------------
+-First of all create req.txt in ur project --
+		activate env and -- pip freeze >req.txt
+ -Push project on github --
+
+- create account on python anywhere
+- Login - Dashboard
+- open bash console
+- git clone giturl 
+ Skip ---------- move all files out of repo name folder to roorprojectname folder --
+- Skip ---- remove repo name folder -- 
+- /home/username/mysite
+- create virtualenv
+	- mkvirtualenv --python=/usr/bin/python3.8 mysite-virtualenv 
+- workon venv(to activate virtualenv) - deactivate 
+- pip install -r req.txt
+- python -m django --version
+- Database setup in settings.py --   https://docs.djangoproject.com/en/3.2/ref/databases/#mysql-sql-mode
+	- database tab open -- enter database name there
+	- set password
+	- copy name, user(VishnuWorld), host
+
+- create webapp - Add New - Next - - manual configurations - Python 3.8
+- it wil redirect to new webapp page
+
+- we need to give virtualenv path to webapp
+- virtualenv path section -- /home/VishnuWorld/.virtualenv/env_name   or give only env_name 
+- Open settings.py inside file tab...	
+	open and make following changes..
+		DATABASES = {
+	    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'VishnuWorld1$Library_db',
+        'USER': 'VishnuWorld1',
+        'PASSWORD': 'Vishnu@123',
+        'HOST': 'VishnuWorld1.mysql.pythonanywhere-services.com',  
+        'PORT': '3306',
+    }
+}
+	- Allowed_HOST= ['VishnuWorld.pythonanywhere.com'] 
+
+-Open database instance.. cross verify tables created or not..consoles
+- Web tab - Code 
+	- edit WSGI configuration file
+	- path of wsgi conf file :- var/www/ 
+	- open file in bash using cat command
+ 	- remove the code and copy from documentation page
+	- path - give username there - give ur project name
+        - changing setting path
+	- save - refresh
+
+- python manage.py makemigrations -- make sure migrations folder has __init__.py
+- python manage.py migrate
+- Web tab - Reload
+- Enjoy the hosted app
+
+
+- logger
+- Scheduled tasks 

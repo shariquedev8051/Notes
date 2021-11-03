@@ -1,0 +1,154 @@
+What is monkey patching?
+What is decorator? Write decorator?
+What is diff between PIP and Conda?
+From where PIP installs the library?
+what is lambda function in python
+what is namespacing  
+what are different scopes in python
+what is difference between module and library in python
+oops concepts, what is inheritance in python
+what is join in database types of join, 
+what is pass by value and pass by reference in python
+property in python 		
+datastructure in python
+datatypes in python, explain each with functionality
+why list is mutable
+what is differece between mutability and immutability
+what is hashing mechanism
+what is the difference between == and is operator related to function
+Difference between (try/except/finally) and (try/except/else)?
+How to write our own exeption in python?
+differece between .pyc and .py
+how memory is manage in python?
+differece between append and extend?
+differece between unique and distinct
+how map is work in python?
+why use lambda function
+differece between function and lambda function?
+what is closure and its usecase?
+what is decorator? How you used in your project?
+differece between tuple and list?
+differece between normal for loop and list comphension?
+explain call by value and call by reference?
+How iterator can be used to generate the generator?
+Difference between xrange and range?
+Data type of xrange(1, 10)?  
+Advatage of Python?
+What is MRO?
+Concept of Iterator?
+What is deepcopy? Diff with shallow?
+What is super?
+Int is immutable then A = 2 A = 4 how?
+How python manages the memory?
+What is context management in python? Ex. with open
+What are the magic methods?
+1*2*3*4*5*6* - print on console?
+How u use the numpy in ur project?
+What is static and class method?
+What is diff between threads and subprocess?
+Advatage of multithreading ?
+What is lock threading?
+What is threding in terms of operating system?
+Where the python object get strored?
+What is list comprehension?
+What is python dispatcher?
+How threads are managed?
+What is synchronous and asynchronous?
+How to convert python2-3?
+Faster list or dictionary? And why?
+How python manages memory?
+Write a programme for banking system.
+Diff between __new__ and __init__?
+What is micro services?
+How django manages the heavy load?
+How load management done in django?
+How to connect to diff microservices?
+Which WSGI server used?
+How to redirect to another server in case of heavy load?
+What is gunicorn?
+What is multithreading?
+Difference between list and tuple
+Program to remove repetative elements in a list
+What is negative indexing? Give a live example where it was used
+What is slicing in a list? How do you achieve it
+Are array used in python? If yes give an example 
+Difference between xrange and range
+What are decorators? Name and explain few built in decorators?
+Can decorators be customised? Give an example of its use in any of your projects.
+What is a constructor? Why is it used?Give an example of its use in any of your projects.
+What will be the logic if the output should be generated after 5 seconds using sleeptime logic once an object is called?
+What are generators? What are its benefits? How are they different from iterators?
+What are the different OOPs concept? How have you used them in your project?
+Types of inheritance? What is hierarchial inheritance? Give an example of it.
+A program to add all digits in an array.
+What are views in SQL? 
+What are different ways to connect to a destination server using AWS?
+Why is lambda function used? Give an example where lambda function can be used.
+Write a program to find even numbers in a list in an ascending order using lambda function.
+Give a real life example where tuple was used. Could it be replaced by a list? If yes/no. What is the reason?
+Give a real time example where lambda function was used.
+What are the different testing methods used by you?
+What is significance of using Unittest and pytest? Which is better method
+What is the command to run a test?
+How do you achieve a test in unitesting?
+Are duplicates used in a list? How to remove duplicates from a list?
+What is alaising and cloning?
+What is shallow copy?
+How to overcome limitations of shallow copy?
+What is deep copy? Explain its advantage over shallow copy with an example
+
+Managerial
+Questions
+Basic introduction
+Which databases have you worked upon?
+Tell me something about your current role and responsibilities.
+If we ask you to lead a team for a certain duration, what are the qualities you want your team members to have as a team leader? Why?
+Are you comfortable if we ask you to learn a new technology which may change your current profile for a certain task? Are you flexible enough to accept it?
+How is daily life at your organization?
+What do you know about this company? What appealed you more to join this company?
+Do you have any questions for us?  *Always ask questions. Only appropriate questions related to your role, daily life, company future goals,how is your small contribution going to help
+
+
+1	How to fetch keys in a dictionary?
+2	How to fetch both key and value from a dictionary?
+3	Why is isinstance used?
+4	Write a program to find the sum of all elements in a list.
+5	Name few core python libraries and their use.
+6	What is the use of libraries asynchio and redis?
+7	Which are the different OOPs concept?
+8	What is meant by multilevel inheritance? Give an example of it
+9	Explain constructor overloading in python
+10	Which GIT command is used to navigate between branches?
+11	Why do conflicts arise while using GIT? How to resolve the conflictts
+12	What is self variable? 
+13	What is an instance method?
+14	What are class methods and static methods?
+15	Difference between class and static method.
+16	Why do we use class method and static method? Their significance
+17	Name a few linux commands you have worked with?
+18	Linux command to find a file?
+19	Why is grep command used?
+	
+Programs	
+Sr. No	Question
+1	s = "India       is      my      country"  .   This string has random spaces in between words. Remove the spaces. Final output ----- "India is my country".Same problem solve with list comprehension
+2	"Best Time to Buy and Sell Stock
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+Example 1:
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+
+Example 2:
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0.
+
+Constraints:
+1 <= prices.length <= 105
+ 0 <= prices[i] <= 104"
+3	Consider a list l = [1,3,8,2,7,9] .   Print all the combinations with the elements of list whose sum is 10. Sum of only two elements is allowed

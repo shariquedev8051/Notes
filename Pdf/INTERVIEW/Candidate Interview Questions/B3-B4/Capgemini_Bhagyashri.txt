@@ -1,0 +1,24 @@
+1. What is REST API?
+2. What is serilization?
+3. What is view in Django? What are the types?
+4. At the time of project creating in Django, __init__ file is create, what it represent?
+5. What is primary key and foreign key?
+6. How to configure static file?
+7. What is ORM?
+8. Basic idea of Flask?
+9. What is Database schema's?
+10. What are the datatypes in Python?
+11. List and tupples differences?
+12. What is generator?
+13. What is decorator? Chaining decorator?
+14. What is inheritance?Types of inheritance?
+15.What is REGEX?
+16. What is dictionary comprehension? Explain it?
+17. What is Django Response cycle?
+18. GIT Commands?
+19. How to obtain the SQL query from the queryset?
+20. What are MySQL queries?
+21. What are the static methods?
+22. What Python Virtual Machine?
+
+

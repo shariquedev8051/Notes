@@ -1,0 +1,10 @@
+1. explain django architecture?
+2. which are the different dependencies installed at the time of Django installation?
+3. what is manage.Py? What it's what it's importance?
+4. what is setting.Py? Which settings is present in it?
+5. what is Q stands in ORM?
+6. if I want to replace values of two column with each other in SQL how it is possible?
+7. If I am having list=[1,2,3] and t=(4,5,6) what would be the output if list.Append(t)?
+8. what is middleware? How it works? Have you implemented in your project?
+9 what is signal? How it works? Have you implemented in your project?Explain in detail?10. what is decorator? Have you used in your project? How did you benefited using decorator?
+11. what are the different built in middlewares?

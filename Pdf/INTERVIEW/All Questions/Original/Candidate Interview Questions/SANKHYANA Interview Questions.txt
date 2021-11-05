@@ -1,0 +1,59 @@
+SANKHYANA CONSULTANCY SERVICES PVT. LTD.
+
+HR Questions:
+1. Currunt CTC?
+2. How much you expect?
+3. On what tech stack you are working now?
+4. Experience in python? Rate urself in python out of 10.
+5. Experience in SQL? Rate urself in SQL out of 10.
+6. Are you the permanant employee of TCS?
+7. How many years you are working at TCS?
+8. How much notice period you need to give to your company? How much negotiable it is?
+
+Technical Interview:
+1. Tell me about projects you worked on in detail and what was your role in those projects?
+2. What are diffrent data types in python?
+3. Compare list, dict, tuple and set in python
+4. Which one is fastest among list and dict? why?
+5. Can you add element in set? How will you add?
+6. What is the output of following program?
+
+	a = [1,2,3]
+	b = [4,5,6]
+
+	a.append(b)
+	print(a)
+___________________________________________________________________________
+
+	a = [1,2,3]
+	b = [4,5,6]
+
+	a.extend(b)
+	print(a)
+____________________________________________________________________________
+	a=[[1 ,2, 3], [4, 5, 6], [7, 8, 9]]
+	b = [[row[i] for row in a] for i in range(3)]
+	print(b)
+____________________________________________________________________________
+	a=[[1 ,2, 3], [4, 5, 6], [7, 8, 9]]
+	b = [y for x in a for y in x]
+	print(b)
+
+7. What is diffrence between append and extend in list?
+8. Implement following
+
+	a = [1,2]
+	b = [2,3,4]
+
+	Outut should be [1,2,3,4] means remove duplicate element while merging the list. Don't use inbuild functions
+9. Implement following
+	a = 12345 output should be 15(Sum of all the digits of number)
+10. Experience in SQL? Rate urself in SQL out of 10.
+11. Can you write complex SQL queries?
+12. How do you connect to MySQL from python?
+13. How do you insert data in database table using python?
+14. Can you create table in MySQL database from python?
+15. What is table constraints in SQL?
+16. What is diffrence between where and having clause in SQL.
+
+

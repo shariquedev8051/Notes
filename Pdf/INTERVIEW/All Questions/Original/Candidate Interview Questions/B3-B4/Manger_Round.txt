@@ -1,0 +1,9 @@
+1. Why are looking for a job change
+2. What database you have used and if there was huge amout of data then why MYsql
+3. Python to database connectivity
+4. What difficulties you faced in you current project
+5. Explain me any particular module on which you have worked.
+6. Was there any time contraints
+7. How to deploy a project. 
+8. Do you know Azure
+9. Why you used Python and Django in your proect and not other Languages.

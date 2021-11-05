@@ -1,0 +1,93 @@
+
+		Mock- Interview -2 Questions----- Date--  11.07.2021
+
+	1. What are the different types of functions?
+	2. Which backend method is executed when 2 == 2 is executed?
+	3. What is eval function?
+	4. What is id?
+	5. What is docstring?
+	6. Types of parameters in functions?
+	7. Types of arguments in functions?
+	8. What is default argument and purpose of it?
+	9. What is difference between variable length arg and var length keyword argument?
+	10. What is concept of one liner function in Python?
+        11. What is difference between filter and map functions?
+	12. Define nested function?
+	13. What are the properties of oops?
+	14. What are the Types of Inheritance?
+	15. Difference between method and constructor in oops?
+	16. Explain in breif constructor?
+	17. What is new method in python?
+	18. What are the types of variables?
+	19. Can we define two constructors in single class?
+	20. What are the types of methods in oops concepts?
+	21. What is identifier n python?
+	22. What is difference between class method and static method?
+	23. What is polymorphism in oops? Examples..
+	24. Does python support overloading?
+	25. Explain Example for operatpor overloading?
+	26. What is signature?
+	27. What is encapsulation?
+	28. Explain access specifiers?
+	29. What is diamond problem in python?
+	30. What is mro?
+	31. What is name mangling?
+	32. What is self?
+	33. Can we call class method in instance method?
+	34. What is monkey-patching?
+	35. What is reduce function? where is it imported from?
+	36. How many variables are passed in reduce function?
+	37. What is syntax of main method?
+	38. How to get output of following code:
+		def func():
+			def inner(*args):
+				print(type(args))
+		
+	39. What is outputof following code:
+		def func():
+			def inner(*args):
+				print(type(args))
+				return "hi"
+			return inner()
+		
+		res = func
+		print(res)
+		
+	40. l = [1,2,3,"abc"].pop()
+		res = l.split()
+		print(res)
+		
+		What will be output of this code?
+		
+	41. class A:
+			def __init__(self,val):
+				self.Val = val
+		
+		a1= A(10)
+		a2 = a1
+		
+		a1.Val = 45
+		print(a2.__dict__)
+	  What will be output of this code?
+
+	42. l = [7,8,9,"m"]
+		list(map(lambda x : x * 2, l)
+	  Output of thia code?
+	
+	
+	
+	Task:
+			--employee class--id, name,age, sal,address, account
+			--diff files for address, account, employee
+			--use main method
+			--CRUD operation
+			- create --list of employee
+			update--using id, data
+			get-- single emp from id
+			get all emp
+			delete -- using id
+			
+			
+			for loop-- sal less than 50000, increment it by 10%
+	
+		

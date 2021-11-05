@@ -1,0 +1,24 @@
+def obfuscateMailId(mailId):
+    if '@' not in mailId:
+        print("Invalid Input")
+    if not mailId.split('@')[0]:
+        print("Invalid Input")
+    else:
+        splitted_str = mailId.split('@')
+        s = "*"
+        length = len(splitted_str[0])
+        if  length <= 5:
+            s = s * length
+            print(s + '@' + splitted_str[1])
+        else:
+            first_three = splitted_str[0][0:3]
+            rest_char = splitted_str[0][3:length+1]
+            s = s * len(rest_char)
+            print(''.join(first_three + s + '@' + splitted_str[1]))
+
+
+if __name__ == '__main__':
+    # mailId = input()
+    # obfuscateMailId(mailId)
+    obfuscateMailId()
+

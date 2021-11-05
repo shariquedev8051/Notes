@@ -1,0 +1,26 @@
+daily routin
+
+
+Daily Routine in office
+1 Login
+
+2 Mail check
+
+3 Revert to mails
+
+4 Status Call/Standup Meeting/Scrum Call
+(Where we discuss abt Tasks we did previous day, Tasks to work on today, Any roadblocker in any task
+
+5 Check the Agile Board for any task assigned
+
+6 Work on tasks
+
+7 Lunch
+
+8 Work on tasks
+
+9 Sometimes interaction with Clients
+
+10 Push the code on git daily
+
+11 Logout

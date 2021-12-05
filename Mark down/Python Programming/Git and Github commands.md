@@ -77,14 +77,72 @@
 1. **`git commit -m "commit message"`**
 
 ### Git branch management:
-1. **`git branch`**:- To see all the branches
-1. **`git branch -v`**:- To see Branches and that branch’s last commit along with it’s message type
-1. **`git branch --merged`**:-To see which branches were merged
-1. **`git branch --unmerged`**:- To see branches those were not merged
-1. **`it branch -d branchname`**:- To delete a branch
-1. **`git branch -D branchname`**:- To delete a branch forcefully.
-1. **`git rm --cached file.extension`**:- To untrack file which is being tracked before adding them into gitignore.
+``` bash
+# To see all branches
+$ git branch
+
+# With last commits
+$ git branch -v
+
+# To see which brances those were merged
+$ git branch --merged
+
+# To see which brances those were not merged
+$ git branch --unmerged 
+
+# To delete a branch
+$ git branch -d branchname
+
+# To delete a branch forecfully
+$ git branch -D branchname 
+
+# To clear tracked file which was recently added in gitignore
+$ git rm --cached file.extension
+```
+
 <p style="page-break-after:always;"></p>
+
+### Git Stash
+
+```bash
+# To stash the file which is tracked
+$ git stash 
+
+# To stash untracked file too
+$ git stash -u
+
+# To stash untracked and ignored files too
+$ git stash -a
+
+# To reapply stashed changes
+$ git stash pop
+
+# To reapply stashed contents to all branches
+$ git stash reapply
+
+# To see stash list
+$ git stash list
+
+# To apply specific stash
+$ git stash  pop stash@{2}
+
+# To see summary of stash
+$ git stash show
+
+# Detailed view of stash
+$ git stash show -p
+
+# To create new branch for the stashes
+$ git stash branch add-stylesheet stash@{1}
+
+# To drop stash
+$ git stash drop stash@{1}
+
+# To clear all stashes
+$ git stash clear
+```
+
+
 
 # GitHub
 
@@ -93,7 +151,7 @@
 1. **`git remote -v`**:- To show you that Origin has been added.
 
 ## Cloning repository from GitHub
-1. **git clone "repository url"**
+1. **`git clone "repository url"`**
 
 ## Signing in using SSH key
 1. [Help is here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)

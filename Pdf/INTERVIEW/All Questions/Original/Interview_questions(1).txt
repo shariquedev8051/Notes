@@ -1,7 +1,0 @@
-1. list, tuple, dict - main charateristics
-2. can we use list, tuple as a key in a dictionary
-3. generators
-4. decorators with example
-5. multithreading and multirocessing 
-6. does python supports multithreading
-7. inheritance, multiple inheritance

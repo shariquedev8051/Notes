@@ -3,6 +3,12 @@
 #### Syntax for lambda function
 
 ```python
-lambda [arg1,arg2,..]:[expression]
+your_function_name = lambda input:output
+```
+
+for e.g
+
+```python
+square = lambda num:num**2
 ```
 

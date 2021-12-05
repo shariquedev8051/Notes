@@ -1,5 +1,29 @@
 # **REST** API
 
+### What is API:-
+
+- **Application Program Interface** or API is used to communicate between two program i,e intermediate.
+- Example of API in real world:-
+  - Waiter as an **API**
+  - Cook as a **Server**
+  - Customer as a **Client** 
+- Type of API public release
+  - **Private** within the application of within the company
+  - **Partner** within the companies parterner
+  - **Public** It can be access by developers
+
+- Terms related to API:-
+  - Provider:- Who provides API services
+  - Consumer :- User of API services
+
+
+### Need of API:-
+
+1. Suppose various user want data from site. You just need to provide API services and that it any one can access your data.
+2. Suppose there in a data base depending upon your application.
+   1. This data has to be access by various technologies ie mobile, java application etc.
+   2. Then Just simply using API services all these software can access same data base and no need to provide different database of each other.
+
 **References**:-
 
 1. Django REST framework [click me](https://www.django-rest-framework.org/api-guide/generic-views/)

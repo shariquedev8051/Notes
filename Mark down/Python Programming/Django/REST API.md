@@ -23,6 +23,7 @@
 2. Suppose there in a data base depending upon your application.
    1. This data has to be access by various technologies ie mobile, java application etc.
    2. Then Just simply using API services all these software can access same data base and no need to provide different database of each other.
+3. suppose server only support java based application for interaction and the client web site is written in python. The either we have to convert server in python or client in java. But suppose there is an another app from mobile phone than what so this difference of technology can be tackled using API as it will interact between server and client and give the access to the server for that.
 
 **References**:-
 
@@ -498,7 +499,7 @@ def say_hello(sender, instance=None, **kwargs):
 <span style = "color : green">Reference :-</span> simpleisbetterthancomplex [click me](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html)
 
 - You need to pass credentials i.e. username and password to get token. 
-- Whenever You logged in you will two tokens. 
+- Whenever You logged in you will nee two tokens. 
 
 - JWT token types:-
 
@@ -548,17 +549,9 @@ class StudListF(ListAPIView):
 
 **Reference**:- Real Python   [click me](https://realpython.com/test-driven-development-of-a-django-restful-api/#objectives)
 
-### How to user postgresql
+### How to use postgresql
 
 **Reference** :-   eternprisedb   [click me](https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django)
-
-
-
-
-
-
-
-
 
 
 

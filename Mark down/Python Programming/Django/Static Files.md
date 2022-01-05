@@ -15,3 +15,15 @@ STATICFILES_DIRS = [
 
 [click me](https://data-flair.training/blogs/django-static-files-handling/)
 
+for django 3+
+
+```python
+STATIC_ROOT = str(BASE_DIR.joinpath('root'))
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    str(BASE_DIR.joinpath('static'))
+]
+
+```
+
